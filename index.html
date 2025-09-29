@@ -404,7 +404,7 @@
         <div class="resume-card">
             <div class="header">
                 <div class="name-section">
-                    <h1 class="name">SIDDHIKA<br>BHAYAL</h1>
+                    <h1 class="name">SIDDHIKA BHAYAL</h1>
                 </div>
                 
                 <div class="profile-section">
@@ -610,12 +610,16 @@
         }
         .name {
             font-size: 2rem !important;
-            line-height: 1.2 !important;
-            white-space: normal !important;
-            word-break: keep-all !important;
+            line-height: 1.4 !important;
+            white-space: nowrap !important;
+            word-spacing: 0.3em !important;
         }
         .name br {
-            display: none !important;
+            content: ' ' !important;
+            display: inline !important;
+        }
+        .name br:after {
+            content: ' ' !important;
         }
     </style>
 </body>
